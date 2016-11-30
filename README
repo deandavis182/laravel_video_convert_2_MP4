@@ -1,0 +1,19 @@
+This is a minimal video converter app built in Laravel.
+
+In this app, PHP uses ffmpeg to convert videos. So you will need to have ffmpeg installed on machine.
+
+
+The app will :
+    
+    Give a form to upload video file.
+    
+    Take the POST file
+
+    Convert uploaded file to: TIMESTAMP + output.mp4 via ffmpeg
+
+    Redirect user to page displaying the converted video + download link
+
+    
+
+
+This app is bare-bones, and has a ton of things to be added in the future :)
